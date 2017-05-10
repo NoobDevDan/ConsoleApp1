@@ -20,6 +20,15 @@ namespace ConsoleApp1
             {
                 Console.WriteLine(i);
             }
+
+            Person person = new Person();
+
+            person.firstName = "Dan";
+            person.lastName = "Le Lievre";
+            person.age = 29;
+
+            person.getFullName();
+
             Console.ReadLine();
         }
     }
